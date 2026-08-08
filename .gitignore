@@ -1,0 +1,7 @@
+/.zig-cache/
+/zig-out/
+*.aof
+*.snapshot
+*.mp4
+demo-metrics*.csv
+/.verify-out/
