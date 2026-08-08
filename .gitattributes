@@ -1,0 +1,14 @@
+# Zig formatting is byte-sensitive; keep source and CI configuration on LF
+# even when contributors use Git for Windows with core.autocrlf enabled.
+*.zig text eol=lf
+*.zon text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Generated media and persistence files are binary when explicitly force-added.
+*.aof binary
+*.snapshot binary
+*.mp4 binary
